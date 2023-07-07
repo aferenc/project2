@@ -1,0 +1,22 @@
+.TreasureMenuHeader-header {
+    box-sizing: border-box;
+    background-color: rgb(19, 58, 38);
+    border: 3px solid rgb(36, 255, 159);
+    border-radius: 5px;
+    position: sticky;
+    top: 0;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TreasureMenuHeader-header > * {
+    margin: 0;
+}
+
+.TreasureMenuHeader-header > h1 {
+    color: rgb(252, 237, 79);
+    text-shadow: 1px 1px 5px orangered;
+}

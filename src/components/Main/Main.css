@@ -1,0 +1,12 @@
+.Main-container {
+    background-color: rgb(5, 23, 4);
+}
+
+@media only screen and (min-width: 800px) {
+    .Main-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 100vh;
+    }
+}
